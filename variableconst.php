@@ -16,13 +16,15 @@ echo $task;
 
 echo "\n";
 
-// How to check constant variable 
+// How to use constant variable 
 
 define('greetings', 'Hello World');
 
 echo constant('greetings');
+
 // alternative ways 
-echo "\n";
+echo "\n"; 
+
 $const = 'constant';
 
 echo "This value is constant {$const('greetings')}";
