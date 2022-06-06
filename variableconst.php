@@ -1,8 +1,6 @@
 <?php
 
-// PHP variable value is changeable. Constant value is not  changeable
-
-// How to check constant variable 
+// PHP variable value is changeable. Constant value is not changeable
 
 // How to change php variable value 
 
