@@ -16,13 +16,13 @@ echo "\n";
 
 // How to use constant variable 
 
-define('greetings', 'Hello World');
+define('GREETINGS', 'Hello World'); 
 
-echo constant('greetings');
+echo constant('GREETINGS');
 
-// alternative ways 
+//alternative ways 
 echo "\n"; 
 
 $const = 'constant';
 
-echo "This value is constant {$const('greetings')}";
+echo "This value is constant {$const('GREETINGS')}";
