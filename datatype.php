@@ -16,7 +16,7 @@ resource
 
  // Here is some practice for output of result. 
 
- $firstName = "Toufiqur";
+ $firstName = "Toufiqur"; // variable name camle case 
  $lastName = "Rahman";
 
  echo "My name is $firstName "."$lastName \n";
