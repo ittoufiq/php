@@ -31,7 +31,7 @@ $division = 12; // = assignment operator
 $division /= 2; // forward slash
 echo $division;
 
-echo "/n";
+echo "\n";
 
 // Modulas 
 $modulas = 13; // = assignment operator 
