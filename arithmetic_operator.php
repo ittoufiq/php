@@ -31,7 +31,7 @@ $division = 12; // = assignment operator
 $division /= 2; // forward slash
 echo $division;
 
-echo "\n";
+echo "/n";
 
 // Modulas 
 $modulas = 13; // = assignment operator 
@@ -52,12 +52,14 @@ $number = (13-5)*6; // precedence of operators in php (BODMAS-Bracet or division
 echo $number;
 
 echo "\n";
+
 // Increament operator 
 $number = 12;
 $number ++; // It means $number +=1; or $number = $number+1;
 echo $number;
 
 echo "\n";
+
 // Dcreament operator 
 $number = 12;
 $number --; // It means $number -=1; or $number = $number-1;
