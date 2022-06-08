@@ -28,7 +28,7 @@ echo "\n";
 // Division 
 $division = 12; // = assignment operator 
 // $division = $division / 12; // Alternative process for Division /=
-$division /= 2;
+$division /= 2; // forward slash
 echo $division;
 
 echo "\n";
@@ -38,3 +38,27 @@ $modulas = 13; // = assignment operator
 // $modulas = $modulas % 3; // Alternative process for Modulas %=
 $modulas %= 2;
 echo $modulas;
+
+echo "\n";
+
+// precedence of arithmetic operator 
+
+$number = 13-5*6; 
+$number = (13-5)*6; // precedence of operators in php (BODMAS-Bracet or division, division, Multiplication, addition, Subtraction)
+// $number = (13/5)*6;
+// $number = (13*5)*6;
+// $number = (13+5)*6;
+//$number = (16+4) * (3-6);
+echo $number;
+
+echo "\n";
+// Increament operator 
+$number = 12;
+$number ++; // It means $number +=1; or $number = $number+1;
+echo $number;
+
+echo "\n";
+// Dcreament operator 
+$number = 12;
+$number --; // It means $number -=1; or $number = $number-1;
+echo $number;
