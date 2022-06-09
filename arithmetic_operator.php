@@ -64,3 +64,27 @@ echo "\n";
 $number = 12;
 $number --; // It means $number -=1; or $number = $number-1;
 echo $number;
+
+echo "\n";
+
+$n = 7;
+$m = $n++; // post increment
+echo $m, "\n", $n;
+
+echo "\n";
+
+
+//alternative process 
+$n = 7;
+$m = ++$n; // pre-increment
+echo $m, "\n", $n;
+
+// echo "\n";
+
+// $m = $n++; how it works exactly 
+/* 
+$n = 7;
+$m = $n;
+$n = $n+1;
+echo $m, "\n", $n; 
+*/
