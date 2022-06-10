@@ -11,9 +11,9 @@
 /* Hexadecimal number 
 0 to 9 and ABCDEF */
 
-$n = 12;
-$o = 012;
-$h = 0x2B;
+$n = 12; // binary number
+$o = 012; // Octal Number 
+$h = 0x2B; // Hexadecimal number 
 
 printf ("The decimal number is %d and %d and %d", $n, $o, $h);
 
