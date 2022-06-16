@@ -20,6 +20,7 @@ if($condition1){
 }
 echo "\n";
 
+// Alternative process 
 if($condition1 && $condition2 && $condition3){
     echo "Hello";
 }elseif($condition1 && $condition2){
