@@ -1,7 +1,7 @@
 <?php
 
 /* 
-foreach // later 
+foreach>later 
 for 
 while 
 do while
