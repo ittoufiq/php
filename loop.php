@@ -49,5 +49,25 @@ echo "Goto loop \n";
 
 $i = 0;
 a: $i++;
-echo $i.PHP_EOL;
+echo PHP_EOL;
 if($i<10) goto a;
+
+echo PHP_EOL;
+// Multiple stepping 
+echo "Multiple stepping";
+echo PHP_EOL;
+for($i=10; $i > 0; $i-=1){
+    echo $i;
+    echo PHP_EOL;
+}
+
+for($i=10; $i > 0; $i-=1){
+    echo $i.":".(11-$i);
+    echo PHP_EOL;
+}
+echo PHP_EOL;
+
+for($i=10, $j=1; $i > 10; $i-=1, $j++){
+    echo $i.":".$j;
+    echo PHP_EOL;
+}
