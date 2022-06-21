@@ -71,3 +71,22 @@ for($i=10, $j=1; $i > 10; $i-=1, $j++){
     echo $i.":".$j;
     echo PHP_EOL;
 }
+
+echo PHP_EOL;
+
+for($i=0; $i<100; $i++){
+    //echo $i."\n";
+    if($i % 7==0) echo $i."\n";
+    if($i % 11==0) echo $i."\n";
+
+    echo $i % 7==0? $i."\n":'';
+    echo $i % 11==0? $i."\n":'';
+}
+
+// Multiple stepping process 
+echo "Multiple stepping process \n";
+
+for($i = 0, $j = 0; $i < 100; $i += 7, $j += 11){
+    echo $i."\n";
+    echo $j<100? $j."\n":'';
+}
