@@ -21,6 +21,7 @@ if(greaterOrSmaller($x, $y)==1){
     echo "{$x} is smaller than {$y}";
 }
 echo PHP_EOL;
+
 // Using spaceship operator 
 
 $result = $x<=>$y;
