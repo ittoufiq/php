@@ -21,10 +21,12 @@ fibonacci(0, 1, 1, 10);
 
 echo PHP_EOL;
 
+// Alternative process 
+
 function fibonacciStaticVariable($old, $new, $end){
 
-    static $start;
-    $start = $start ?? 0;
+    static $start; // static variable 
+    $start = $start ?? 0; // used Null Coalescing Operator
 
     if($start > $end){ // added breaking condition 
         return;
